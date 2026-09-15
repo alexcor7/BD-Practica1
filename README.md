@@ -33,6 +33,10 @@ Se creó una rama independiente para realizar una modificación sin afectar dire
 
 Se realizó un Pull Request para solicitar la incorporación de los cambios realizados en la rama de trabajo hacia la rama `main`.
 
+## Cambio realizado en la rama
+
+Esta sección fue agregada como parte de la práctica de trabajo mediante ramas.
+
 ## Comandos utilizados
 A continuación se detallan los comandos principales para la configuración, desarrollo y despliegue del proyecto.
 
