@@ -33,6 +33,46 @@ Se creó una rama independiente para realizar una modificación sin afectar dire
 
 Se realizó un Pull Request para solicitar la incorporación de los cambios realizados en la rama de trabajo hacia la rama `main`.
 
+## Comandos utilizados
+A continuación se detallan los comandos principales para la configuración, desarrollo y despliegue del proyecto.
+
+Lista de los comandos principales de Git empleados en este proyecto:
+
+- **Iniciar repositorio:**
+  \`\`\`bash
+  git init
+  \`\`\`
+
+- **Ver el estado de los archivos:**
+  \`\`\`bash
+  git status
+  \`\`\`
+
+- **Añadir cambios al área de preparación (staging):**
+  \`\`\`bash
+  git add .
+  \`\`\`
+
+- **Guardar cambios (hacer commit):**
+  \`\`\`bash
+  git commit -m "Descripción clara de los cambios"
+  \`\`\`
+
+- **Conectar con el repositorio remoto:**
+  \`\`\`bash
+  git remote add origin <URL-del-repositorio>
+  \`\`\`
+
+- **Subir cambios al servidor remoto:**
+  \`\`\`bash
+  git push -u origin main
+  \`\`\`
+
+- **Descargar actualizaciones del repositorio remoto:**
+  \`\`\`bash
+  git pull
+  \`\`\`
+
 ## Conclusiones
 
 El uso de Git y GitHub permite administrar de manera organizada los cambios de un proyecto y facilita el trabajo colaborativo mediante ramas, commits y Pull Requests.
