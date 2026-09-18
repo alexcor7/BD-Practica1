@@ -6,77 +6,37 @@
 
 ## Índice
 
-1. [Introducción](#introducción)
-2. [Objetivo](#objetivo)
-3. [Práctica con Git](#práctica-con-git)
-4. [Uso de ramas](#uso-de-ramas)
-5. [Pull Request](#pull-request)
-6. [Conclusiones](#conclusiones)
+1. [Ejercicio 1 — Git y GitHub](#ejercicio-1--git-y-github)
+2. [Ejercicio 2 — Docker y PostgreSQL](#ejercicio-2--docker-y-postgresql)
+3. [Ejercicio 3 — Investigación: ¿Qué es una base de datos?](#ejercicio-3--investigación-qué-es-una-base-de-datos)
+4. [Ejercicio 4 — Estado del arte](#ejercicio-4--estado-del-arte)
+5. [Ejercicio 5 — Caso de estudio y modelo entidad-relación](#ejercicio-5--caso-de-estudio-y-modelo-entidad-relación)
 
-## Introducción
+## Ejercicio 1 — Git y GitHub
 
-Esta práctica tiene como finalidad conocer y utilizar las herramientas básicas de Git y GitHub para el control de versiones de un proyecto.
+Documentación y evidencias correspondientes al uso de Git y GitHub.
+- [Evidencias de Git y GitHub](evidencias/)
 
-## Objetivo
+## Ejercicio 2 — Docker y PostgreSQL
 
-Aprender a crear un repositorio, realizar confirmaciones, utilizar ramas, trabajar con Pull Requests y comprender un flujo básico de trabajo colaborativo.
+Configuración del entorno mediante Docker Compose y PostgreSQL.
+- [Evidencias de Docker](evidencias/)
 
-## Práctica con Git
+## Ejercicio 3 — Investigación: ¿Qué es una base de datos?
 
-En esta práctica se utilizaron diferentes comandos de Git para crear y administrar el repositorio, registrar cambios y consultar el historial del proyecto.
+[Ver investigación](docs/investigacion-bases-de-datos.pdf)
 
-## Uso de ramas
+## Ejercicio 4 — Estado del arte
 
-Se creó una rama independiente para realizar una modificación sin afectar directamente la rama principal `main`.
+[Ver estado del arte](docs/estado-del-arte.pdf)
 
-## Pull Request
+## Ejercicio 5 — Caso de estudio y modelo entidad-relación
 
-Se realizó un Pull Request para solicitar la incorporación de los cambios realizados en la rama de trabajo hacia la rama `main`.
+[Ver caso de estudio](docs/caso-de-estudio.pdf)
 
-## Cambio realizado en la rama
+## Estructura del repositorio
 
-Esta sección fue agregada como parte de la práctica de trabajo mediante ramas.
-
-## Comandos utilizados
-A continuación se detallan los comandos principales para la configuración, desarrollo y despliegue del proyecto.
-
-Lista de los comandos principales de Git empleados en este proyecto:
-
-- **Iniciar repositorio:**
-  \`\`\`bash
-  git init
-  \`\`\`
-
-- **Ver el estado de los archivos:**
-  \`\`\`bash
-  git status
-  \`\`\`
-
-- **Añadir cambios al área de preparación (staging):**
-  \`\`\`bash
-  git add .
-  \`\`\`
-
-- **Guardar cambios (hacer commit):**
-  \`\`\`bash
-  git commit -m "Descripción clara de los cambios"
-  \`\`\`
-
-- **Conectar con el repositorio remoto:**
-  \`\`\`bash
-  git remote add origin <URL-del-repositorio>
-  \`\`\`
-
-- **Subir cambios al servidor remoto:**
-  \`\`\`bash
-  git push -u origin main
-  \`\`\`
-
-- **Descargar actualizaciones del repositorio remoto:**
-  \`\`\`bash
-  git pull
-  \`\`\`
-
-## Conclusiones
-
-El uso de Git y GitHub permite administrar de manera organizada los cambios de un proyecto y facilita el trabajo colaborativo mediante ramas, commits y Pull Requests.
+- `docs/` — Documentos de la práctica en PDF.
+- `entorno/` — Configuración de Docker y PostgreSQL.
+- `modelo/` — Diagrama entidad-relación.
+- `evidencias/` — Evidencias de Git/GitHub y Docker.
